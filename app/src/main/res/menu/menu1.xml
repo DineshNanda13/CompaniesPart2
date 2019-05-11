@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/adding"
+        android:orderInCategory="100"
+        android:title="add a company"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/addingMany"
+        android:orderInCategory="100"
+        android:title="add 10 companies"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/deleteLastRow"
+        android:orderInCategory="100"
+        android:title="delete last company"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/deletingall"
+        android:orderInCategory="100"
+        android:title="delete database"
+        app:showAsAction="never" />
+</menu>
